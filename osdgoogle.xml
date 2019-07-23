@@ -2,5 +2,5 @@
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
 	<ShortName>Google</ShortName>
 	<Description>Use Google to search</Description>
- 	<Url type="application/rss+xml" template="https://news.google.com/rss/search?q={searchTerms}&byId={sfdc:searchById?}&type={sfdc:recordType}&start={startIndex?}&num={count?}"/>
+ 	<Url type="application/rss+xml" template="https://news.google.com/rss/search?q={searchTerms}&pw={startPage?}&offset={startIndex?}"/>
 </OpenSearchDescription>
