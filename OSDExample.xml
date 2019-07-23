@@ -1,7 +1,7 @@
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:sfdc="http://salesforce.com/2016/federatedsearch/1.0">
 <ShortName>SE</ShortName>
 <Description>MySE.com</Description>
-<Url type="application/atom+xml" template="https://rlopensearch.herokuapp.com/SE/search?label=All&q={searchTerms}&pw={startPage?}&offset={startIndex?}"/>
+<Url type="application/atom+xml" template="https://rlopensearch.herokuapp.com/SE/search?label=All&q={searchTerms}"/>
 <sfdc:RecordTypes>
 <sfdc:RecordType name="SESearchAll">
 <sfdc:Field name="title" type="string" sortable="true"/>
