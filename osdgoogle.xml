@@ -3,4 +3,14 @@
 	<ShortName>Google</ShortName>
 	<Description>Use Google to search</Description>
 	<Url type="application/rss+xml" template="https://news.google.com/rss/search?q={searchTerms}"/>
+	<sfdc:RecordTypes>
+		<sfdc:RecordType name="GSearch">
+			<sfdc:Field name="title" type="string" sortable="true"/>
+			<sfdc:Field name="link" type="string" sortable="false"/>
+			<sfdc:Field name="guid" type="string" sortable="true"/>
+			<sfdc:Field name="pubDate" type="string" sortable="true"/>
+			<sfdc:Field name="description" type="string" sortable="true"/>
+			<sfdc:Field name="source" type="string" sortable="true"/>
+		</sfdc:RecordType>
+	</sfdc:RecordTypes>
 </OpenSearchDescription>
