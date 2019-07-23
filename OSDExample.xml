@@ -1,0 +1,19 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:sfdc="http://salesforce.com/2016/federatedsearch/1.0">
+<ShortName>SE</ShortName>
+<Description>MySE.com</Description>
+<Url type="application/atom+xml" template="https://rlopensearch.herokuapp.com/SE/search?label=All&q={searchTerms}&pw={startPage?}&offset={startIndex?}"/>
+<sfdc:RecordTypes>
+<sfdc:RecordType name="SESearchAll">
+<sfdc:Field name="title" type="string" sortable="true"/>
+<sfdc:Field name="summary" type="string" sortable="true"/>
+<sfdc:Field name="category" type="string" sortable="true"/>
+<sfdc:Field name="documentReference" type="string" sortable="true"/>
+<sfdc:Field name="documentType" type="string" sortable="true"/>
+<sfdc:Field name="documentLanguage" type="string" sortable="true"/>
+<sfdc:Field name="documentDate" type="string" sortable="true"/>
+<sfdc:Field name="downloadUrl" type="string" sortable="false"/>
+<sfdc:Field name="pdfUrl" type="string" sortable="false"/>
+<sfdc:Field name="totalResults" type="string" sortable="true"/>
+</sfdc:RecordType>
+</sfdc:RecordTypes>
+</OpenSearchDescription>
