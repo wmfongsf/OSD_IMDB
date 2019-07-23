@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:sfdc="http://salesforce.com/2016/federatedsearch/1.0">
   <ShortName>Google Search</ShortName>
-  <Url type="application/atom+xml" sfdc:maxTotalResults="50" template="https://news.google.com/rss/search?q={searchTerms}"/>
+  <Url type="application/rss+xml" sfdc:maxTotalResults="50" template="https://news.google.com/rss/search?q={searchTerms}"/>
   <sfdc:RecordTypes>
     <sfdc:RecordType name="Google Result">
       <sfdc:Field name="title" type="string" sortable="true"/>
