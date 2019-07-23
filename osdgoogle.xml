@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
-	<ShortName>Perishable Press</ShortName>
-	<Description>Use Google to search Perishable Press!</Description>
-	<Url type="application/rss+xml" template="http://www.google.com/search?q=site:perishablepress.com {searchTerms}"/>
+	<ShortName>Google</ShortName>
+	<Description>Use Google to search</Description>
+	<Url type="application/rss+xml" template="http://www.google.com/search?q={searchTerms}"/>
 </OpenSearchDescription>
