@@ -4,6 +4,6 @@
   <Description>Search for videos on YouTube</Description>
   <Tags>youtube video</Tags>
   <Image height="16" width="16" type="image/vnd.microsoft.icon">http://www.youtube.com/favicon.ico</Image>
-  <Url type="application/rss+xml" template="http://www.youtube.com/results?search_query={searchTerms}&page={startPage?}&utm_source=opensearch"/>
+  <Url type="application/rss+xml" template="http://www.youtube.com/results?search_query={searchTerms}"/>
   <Query role="example" searchTerms="cat"/>
 </OpenSearchDescription>
